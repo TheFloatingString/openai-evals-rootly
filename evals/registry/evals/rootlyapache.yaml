@@ -1,0 +1,9 @@
+rootlyapache:
+  id: rootlyapache.dev.v0
+  description: <description>
+  metrics: [accuracy]
+
+rootlyapache.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: rootlyapache/match.jsonl
